@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #F8FAFC;
+    --color-surface: #FFFFFF;
+    --color-card: #FFFFFF;
+    --color-border: #E2E8F0;
+    --color-text-primary: #0F172A;
+    --color-text-secondary: #64748B;
+  }
+
+  .dark {
+    --color-bg: #0B0F19;
+    --color-surface: #111827;
+    --color-card: #151D2C;
+    --color-border: #1E293B;
+    --color-text-primary: #F8FAFC;
+    --color-text-secondary: #94A3B8;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+/* Custom modern scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.45);
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}

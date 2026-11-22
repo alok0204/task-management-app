@@ -1,0 +1,45 @@
+// Prisma schema for TaskFlow — Thiranex Task 2
+// Developer: Alok Kumar Vishwas (alok0204)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(uuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  theme        String   @default("dark")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  tasks        Task[]
+
+  @@map("users")
+}
+
+model Task {
+  id          String    @id @default(uuid())
+  title       String
+  description String?
+  status      String    @default("Pending") // "Pending", "In Progress", "Completed"
+  priority    String    @default("Medium")  // "Low", "Medium", "High"
+  category    String    @default("Work")    // "Personal", "Study", "Work", "Other"
+  dueDate     DateTime?
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([userId])
+  @@index([status])
+  @@index([priority])
+  @@index([category])
+  @@index([dueDate])
+  @@map("tasks")
+}

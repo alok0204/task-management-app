@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": "usr_alok_0204",
+      "name": "Alok Kumar Vishwas",
+      "email": "alokvishwas786@gmail.com",
+      "passwordHash": "$2a$10$uw8h.HSjPZBUKu3QtsxTPuIwaUL1VsFxmx6WlAMUUiIY9.c3j/O7y",
+      "theme": "dark",
+      "createdAt": "2026-11-22T17:52:48.702Z",
+      "updatedAt": "2026-11-22T17:52:48.702Z"
+    },
+    {
+      "id": "usr_1795370112464_hxn36g",
+      "name": "Second Tester",
+      "email": "user2_1929499553@thiranex.com",
+      "passwordHash": "$2a$10$ewI/PjyGPopl.C37wITdC.6FhjbfBnQ1tu9mqivhZIMnjoKYpe5QO",
+      "theme": "dark",
+      "createdAt": "2026-11-22T17:55:12.464Z",
+      "updatedAt": "2026-11-22T17:55:12.464Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tsk_001",
+      "title": "Execute Thiranex Task 2 Full-Stack Delivery",
+      "description": "Build complete task management app with React, Node.js, PostgreSQL/Prisma, WebSockets, and Kanban board.",
+      "status": "In Progress",
+      "priority": "High",
+      "category": "Work",
+      "dueDate": "2026-11-23T17:52:48.702Z",
+      "userId": "usr_alok_0204",
+      "createdAt": "2026-11-18T17:52:48.703Z",
+      "updatedAt": "2026-11-22T17:52:48.702Z"
+    },
+    {
+      "id": "tsk_002",
+      "title": "Design Interactive Kanban & Calendar Views",
+      "description": "Implement drag-and-drop workflow status updates, month view scheduling, and quick action filters.",
+      "status": "Completed",
+      "priority": "High",
+      "category": "Work",
+      "dueDate": "2026-11-22T17:52:48.702Z",
+      "userId": "usr_alok_0204",
+      "createdAt": "2026-11-19T17:52:48.704Z",
+      "updatedAt": "2026-11-22T17:52:48.702Z"
+    },
+    {
+      "id": "tsk_003",
+      "title": "Review Operating Systems & DBMS Concepts",
+      "description": "Prepare semester exam notes on Process Scheduling, Indexing, and Transaction ACID properties at GL Bajaj.",
+      "status": "Pending",
+      "priority": "Medium",
+      "category": "Study",
+      "dueDate": "2026-11-29T17:52:48.702Z",
+      "userId": "usr_alok_0204",
+      "createdAt": "2026-11-20T17:52:48.704Z",
+      "updatedAt": "2026-11-22T17:52:48.702Z"
+    },
+    {
+      "id": "tsk_004",
+      "title": "Configure Production Deployment & Neon PostgreSQL",
+      "description": "Set up Render web service, Neon serverless PostgreSQL, Vercel frontend, and environment secrets.",
+      "status": "In Progress",
+      "priority": "High",
+      "category": "Work",
+      "dueDate": "2026-11-23T17:52:48.702Z",
+      "userId": "usr_alok_0204",
+      "createdAt": "2026-11-21T17:52:48.704Z",
+      "updatedAt": "2026-11-22T17:52:48.702Z"
+    },
+    {
+      "id": "tsk_005",
+      "title": "Evening Fitness & Calisthenics Routine",
+      "description": "Upper body hypertrophy workout and 5km recovery jog.",
+      "status": "Pending",
+      "priority": "Low",
+      "category": "Personal",
+      "dueDate": "2026-11-20T17:52:48.702Z",
+      "userId": "usr_alok_0204",
+      "createdAt": "2026-11-17T17:52:48.704Z",
+      "updatedAt": "2026-11-22T17:52:48.702Z"
+    },
+    {
+      "id": "tsk_006",
+      "title": "Update GitHub Portfolio & TaskFlow Repository",
+      "description": "Commit verified codebase, comprehensive architectural documentation, and API endpoints table.",
+      "status": "Completed",
+      "priority": "Medium",
+      "category": "Work",
+      "dueDate": "2026-11-22T17:52:48.702Z",
+      "userId": "usr_alok_0204",
+      "createdAt": "2026-11-20T17:52:48.704Z",
+      "updatedAt": "2026-11-22T17:52:48.702Z"
+    }
+  ]
+}
