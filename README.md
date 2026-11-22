@@ -8,7 +8,21 @@
 
 ---
 
-## 🌟 Executive Summary
+## 📸 Application Previews & Screenshots
+
+| Dashboard Overview | Kanban Board View |
+| :---: | :---: |
+| ![Dashboard Overview](client/public/screenshots/dashboard.png) | ![Kanban Board](client/public/screenshots/kanban-board.png) |
+
+| Task Completion & Confetti Celebration | Calendar Schedule View |
+| :---: | :---: |
+| ![Task Completion](client/public/screenshots/tasks-completed.png) | ![Calendar View](client/public/screenshots/calendar-view.png) |
+
+| Real-Time Productivity Analytics | Account Settings & Verification |
+| :---: | :---: |
+| ![Productivity Analytics](client/public/screenshots/analytics.png) | ![Settings & Verification](client/public/screenshots/settings.png) |
+
+---
 
 **TaskFlow** is an enterprise-grade, high-performance task and productivity management web application developed from scratch to satisfy all mandatory and preferred criteria of **Thiranex Task 2**. Inspired by modern productivity suites such as Linear and Notion, TaskFlow delivers an ultra-clean SaaS user experience with real-time WebSocket state synchronization, secure JWT-based multi-user authentication, persistent relational data architecture via **PostgreSQL** and **Prisma ORM**, interactive Kanban board drag-and-drop workflow, comprehensive date scheduling, and automated productivity metrics.
 

@@ -48,13 +48,13 @@
       "id": "tsk_003",
       "title": "Review Operating Systems & DBMS Concepts",
       "description": "Prepare semester exam notes on Process Scheduling, Indexing, and Transaction ACID properties at GL Bajaj.",
-      "status": "Pending",
+      "status": "In Progress",
       "priority": "Medium",
       "category": "Study",
       "dueDate": "2026-11-29T17:52:48.702Z",
       "userId": "usr_alok_0204",
       "createdAt": "2026-11-20T17:52:48.704Z",
-      "updatedAt": "2026-11-22T17:52:48.702Z"
+      "updatedAt": "2026-11-22T18:10:03.969Z"
     },
     {
       "id": "tsk_004",
@@ -91,6 +91,18 @@
       "userId": "usr_alok_0204",
       "createdAt": "2026-11-20T17:52:48.704Z",
       "updatedAt": "2026-11-22T17:52:48.702Z"
+    },
+    {
+      "id": "tsk_1795370889819_ov3msb",
+      "title": "Verify Thiranex Final Review",
+      "description": "Full validation of all Task 2 criteria",
+      "status": "Completed",
+      "priority": "High",
+      "category": "Work",
+      "dueDate": "2026-11-23T00:00:00.000Z",
+      "userId": "usr_alok_0204",
+      "createdAt": "2026-11-22T18:08:09.822Z",
+      "updatedAt": "2026-11-22T18:09:28.813Z"
     }
   ]
 }
